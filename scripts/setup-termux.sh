@@ -10,7 +10,7 @@ PACKAGES+=" patch"				# Used for applying patches on source code.
 PACKAGES+=" python"				# Used buildorder.py core script.
 PACKAGES+=" unzip"				# Used to extract *.zip source archives.
 PACKAGES+=" jq"					# Used for parsing repo.json.
-PACKAGES+=" binutils-is-llvm"			# Used for checking symbols.
+PACKAGES+=" binutils-is-llvm"	# Used for checking symbols.
 
 # Tier 2: requirements for building many other packages.
 PACKAGES+=" asciidoc"
@@ -19,7 +19,7 @@ PACKAGES+=" autoconf"
 PACKAGES+=" automake"
 PACKAGES+=" bc"
 PACKAGES+=" bison"
-PACKAGES+=" bsdtar"                     # Needed to create pacman packages
+PACKAGES+=" bsdtar"             # Needed to create pacman packages
 PACKAGES+=" cmake"
 PACKAGES+=" ed"
 PACKAGES+=" flex"
@@ -38,13 +38,13 @@ PACKAGES+=" perl"
 PACKAGES+=" pkg-config"
 PACKAGES+=" protobuf"
 PACKAGES+=" python2"
-PACKAGES+=" re2c"                       # Needed by kphp-timelib
+PACKAGES+=" re2c"               # Needed by kphp-timelib
 PACKAGES+=" rust"
 PACKAGES+=" scdoc"
 PACKAGES+=" texinfo"
 PACKAGES+=" uuid-utils"
 PACKAGES+=" valac"
-PACKAGES+=" xmlto"                      # Needed by git's manpage generation
+PACKAGES+=" xmlto"              # Needed by git's manpage generation
 PACKAGES+=" zip"
 
 # Definition of a package manager
