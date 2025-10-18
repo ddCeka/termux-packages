@@ -2,7 +2,7 @@
 
 set -e -u
 
-: "${TERMUX_PKG_TMPDIR:="/tmp"}"
+: "${TERMUX_PKG_TMPDIR:="$PREFIX/tmp"}"
 
 # Install desired parts of the Android SDK:
 . $(cd "$(dirname "$0")"; pwd)/properties.sh
